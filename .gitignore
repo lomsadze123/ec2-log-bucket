@@ -1,0 +1,20 @@
+# SSH keys and certificates
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
+
+# AWS credentials and local env files
+.aws/
+.env
+*.env
+
+# Local CloudFormation parameter files (may contain IPs or secrets)
+params*.json
+*.local.json
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
